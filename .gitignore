@@ -1,0 +1,26 @@
+# Simulation output
+sim/tb/*.out
+sim/tb/*.vcd
+sim/tb/*.log
+
+# Gowin simulation library (proprietary, see sim/gowin_sim_lib/README.md)
+sim/gowin_sim_lib/gw2a/
+
+# Gowin build output (process settings are kept)
+gowin_prj/impl/*
+!gowin_prj/impl/e203_basic_chip_process_config.json
+*.gprj.user
+
+# Firmware build output (ram.hex is kept: it is loaded into ITCM at synthesis)
+*.o
+*.d
+*.elf
+*.bin
+*.map
+*.siz
+*.lst
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
