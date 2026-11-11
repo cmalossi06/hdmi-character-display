@@ -6,6 +6,12 @@ Team project for *Intelligent Chip Design*, Tongji University, Shanghai, 2025/26
 
 Full project report: [docs/report_hdmi_character_display.pdf](docs/report_hdmi_character_display.pdf)
 
+<p align="center">
+  <a href="docs/media/hdmi_terminal_demo.mp4"><img src="docs/media/hdmi_terminal_demo_preview.gif" width="480" alt="Power-up on the board: colour bars, then the text terminal"></a>
+</p>
+
+<p align="center">Power-up on the Tang Primer 20K: the eight colour bars, then the text terminal with the boot banner.<br><a href="docs/media/hdmi_terminal_demo.mp4">Watch the full video (20 s)</a></p>
+
 ## Highlights
 
 - Custom peripheral on the E203 ICB bus with four memory-mapped registers
@@ -105,7 +111,7 @@ firmware/          UART-to-HDMI firmware (main.c) and board support package; Deb
 sim/tb/            the six testbenches and run_all.sh
 gowin_prj/         Gowin project, pin and timing constraints, process settings
 tools/makehex64/   binary-to-hex converter used by the firmware build
-docs/              project report and block diagram
+docs/              project report, block diagram and hardware demo video
 ```
 
 ## Running
